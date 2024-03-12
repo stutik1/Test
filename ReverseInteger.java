@@ -10,7 +10,7 @@ public class ReverseInteger {
             rev = rev*10+rem;
             num=num/10;
             //System.out.println(rev);
-        }t;
+        };
         ArrayList<Integer> t=new ArrayList();
         System.out.println(rev);
     }
