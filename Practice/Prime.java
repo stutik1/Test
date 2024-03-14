@@ -1,3 +1,4 @@
+package Practice;
 
 public class Prime{
     static boolean isPrime(int n)

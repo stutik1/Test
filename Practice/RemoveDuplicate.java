@@ -1,5 +1,8 @@
+package Practice;
+
 import java.util.Arrays;
 import java.util.List;
+import java.util.stream.Collectors;
 
 public class RemoveDuplicate {
     public static void main(String[] args) {
@@ -9,5 +12,6 @@ public class RemoveDuplicate {
        // lists.stream().distinct().forEach(System.out::println);
         lists.stream().filter(a->a%2==0).forEach(System.out::println);
         lists.stream().filter(a->a%2!=0).forEach(a->System.out.print(a+" "));
+        lists.stream().map(a->a*a).collect(Collectors.toList()).forEach(System.out::println);
     }
 }
